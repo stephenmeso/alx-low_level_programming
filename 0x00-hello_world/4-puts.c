@@ -1,8 +1,9 @@
-#include <stdio.h>
+#include <stdio.h>
 /**
- * main - Entry point
+ * main - print the string in the put function
  *
- * Return: Always 0 (Success)
+ * Description: using the main function
+ * Return always 0 (Success)
  */
 int main(void)
 {
