@@ -3,6 +3,7 @@
  * main - print the string in the put function
  *
  * Description: using the main function
+ *
  * Return always 0 (Success)
  */
 int main(void)
