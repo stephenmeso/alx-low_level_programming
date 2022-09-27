@@ -13,11 +13,10 @@ unsigned int _strspn(char *s, char *accept)
 
 	while (s[i] != '\0') /*iterate through string*/
 	{
-		
-		for (j = 0; accept[j] != '\0'; j++) /*iterate through target*/
+
+                for (j = 0; accept[j] != '\0'; j++) /*iterate through target*/
 		{
-	                if (s[i] == accept[j]) /*record & break at first match*/
-			{
+	                if (s[i] == accept[j]) /*record & break at first match*/                        {
 				matches++;
 				break;
 			}
@@ -26,7 +25,7 @@ unsigned int _strspn(char *s, char *accept)
 			
 			return (matches);/*return if idx doesn't match*/
 		}
-                
+
 		i++;
 	}
 
